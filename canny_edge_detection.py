@@ -21,12 +21,18 @@ while(1):
     # so that change can be find easily 
     gaussianblur = cv2.GaussianBlur(gray, (5, 5), 0)
 
-    # using Canny function
+    #using canny function in gray
+    edges_gray = cv2.Canny(gray, 60, 120)
+
+    # using Canny function in gaussian blur
     edges = cv2.Canny(gaussianblur, 60, 120)
 
     #original frame
     cv2.imshow('Original',frame) 
 
+    #edge_gray frame
+    cv2.imshow('edge_gray', edges_gray)
+    
     # edge frame
     cv2.imshow('edges', edges)
 
