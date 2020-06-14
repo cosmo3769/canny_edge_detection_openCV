@@ -56,4 +56,4 @@
 
 *This stage also removes small pixels noises on the assumption that edges are long lines.*
 
-
+**cv2.Canny(frame, min_threshold, max_threshold)** *The first argument is the input image, second and third argument is the minimum threshold value and the maximum threshold value*
