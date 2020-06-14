@@ -21,5 +21,24 @@ while(1):
     # so that change can be find easily 
     gaussianblur = cv2.GaussianBlur(gray, (5, 5), 0)
 
-    
+    # using Canny function
+    edges = cv2.Canny(gaussianblur, 60, 120)
+
+    #original frame
+    cv2.imshow('Original',frame) 
+
+    # edge frame
+    cv2.imshow('edges', edges)
+
+    #exit 
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Close the window 
+cap.release() 
+  
+# De-allocate any associated memory usage 
+cv2.destroyAllWindows()  
+
+
 
