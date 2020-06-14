@@ -20,7 +20,7 @@
 
 ***edge_gradient(G) = ((Gx)^2 + (Gy)^2)^1/2***
 
-***Angle(θ) = tan−1(Gy/Gx)
+***Angle(θ) = tan−1(Gy/Gx)***
 
 *Gradient direction is always perpendicular to edges. It is rounded to one of four angles representing vertical, horizontal and two diagonal directions(0°, 45°, 90° and 135°)*
 
