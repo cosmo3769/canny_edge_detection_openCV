@@ -19,6 +19,7 @@
 *Smoothened image is then filtered with a Sobel kernel in both horizontal and vertical direction to get first derivative in horizontal direction ( Gx) and vertical direction ( Gy). From these two images, we can find edge gradient and direction for each pixel.*
 
 ***edge_gradient(G) = ((Gx)^2 + (Gy)^2)^1/2***
+
 ***Angle(θ) = tan−1(Gy/Gx)
 
 *Gradient direction is always perpendicular to edges. It is rounded to one of four angles representing vertical, horizontal and two diagonal directions(0°, 45°, 90° and 135°)*
