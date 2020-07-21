@@ -1,5 +1,9 @@
 # canny_edge_detection_openCV
 
+## openCV
+
+openCV is a library of programming functions mainly aimed at computer vision. It has many applications(motion detection, object detection, face recognition, edge detection etc.). It is mainly the best library to play with images. Here is the edge detction application.
+
 **The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images**
 
 ###### GRAYSCALE CONVERSION
