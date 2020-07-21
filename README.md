@@ -4,6 +4,10 @@
 
 openCV is a library of programming functions mainly aimed at computer vision. It has many applications(motion detection, object detection, face recognition, edge detection etc.). It is mainly the best library to play with images. Here is the edge detction application.
 
+###### installation
+
+[openCV_installation](https://docs.opencv.org/master/d5/de5/tutorial_py_setup_in_windows.html)
+
 **The Canny edge detector is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images**
 
 ###### GRAYSCALE CONVERSION
